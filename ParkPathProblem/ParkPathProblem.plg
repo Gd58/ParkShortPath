@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ParkPathProblem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP775A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MSDev98\MyProjects\ParkPathProblem\ParkPathProblem.cpp"
+"E:\MSDev98\MyProjects\ParkPathProblem\ParkPathProblemDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP775A.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP775B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ParkPathProblem.pdb" /debug /machine:I386 /out:"Debug/ParkPathProblem.exe" /pdbtype:sept 
+.\Debug\ParkPathProblem.obj
+.\Debug\ParkPathProblemDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ParkPathProblem.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP775B.tmp"
+<h3>Output Window</h3>
+Compiling...
+ParkPathProblem.cpp
+e:\msdev98\myprojects\parkpathproblem\stdafx.h(28) : fatal error C1083: Cannot open include file: 'afxcontrolbars.h': No such file or directory
+ParkPathProblemDlg.cpp
+e:\msdev98\myprojects\parkpathproblem\stdafx.h(28) : fatal error C1083: Cannot open include file: 'afxcontrolbars.h': No such file or directory
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+ParkPathProblem.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
